@@ -1,0 +1,9 @@
+#Account details
+This application is responsible to get the account details and account transaction details.
+
+1. Used in-memory database(H2). To access H2 console http://localhost:8000/h2-console
+2. Inserted static data in the table to fetch the details for accounts and account transaction.
+3. Created 2 enpoints
+     /accounts : To get all the account details
+     /accounts/{accountNumber} : To get the details of the account transactions for the associated account number
+4. mvn clean install to run the application

@@ -6,4 +6,4 @@ This application is responsible to get the account details and account transacti
 3. Created 2 enpoints
      /accounts : To get all the account details
      /accounts/{accountNumber} : To get the details of the account transactions for the associated account number
-4. mvn clean install to run the application
+4. mvn clean install command to run the application
